@@ -25,9 +25,9 @@
         <div class="slideshow-container" style="margin-top: 3.9em;">
             <?php
             $slides = [
-                ["src" => "assets/images/balmond-bioroid-starlight-skin-mobile-legends-2k-wallpaper-uhdpaper.com-732@0@f.jpg", "text" => "Balmond"]
-                ["src" => "photo scroll/dyrroth-venom-mobile-legends-skin-2k-wallpaper-uhdpaper.com-331@1@g.jpg", "text" => "Dyroth"],
-                ["src" => "photo scroll/xavier-mobile-legends-2k-wallpaper-uhdpaper.com-334@1@g.jpg", "text" => "Xavier"],
+                ["src" => "assets/images/balmond-bioroid-starlight-skin-mobile-legends-2k-wallpaper-uhdpaper.com-732@0@f.jpg", "text" => "Balmond"],
+                ["src" => "assets/images/dyrroth-venom-mobile-legends-skin-2k-wallpaper-uhdpaper.com-331@1@g.jpg", "text" => "Dyroth"],
+                ["src" => "assets/images/xavier-mobile-legends-2k-wallpaper-uhdpaper.com-334@1@g.jpg", "text" => "Xavier"]
             ];
 
             foreach ($slides as $index => $slide) {
