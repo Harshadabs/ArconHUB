@@ -21,7 +21,19 @@
     </div>
 
     <div class="container">
-        <img src="photo scroll/hsr logo.jpg" alt="Honkai Star Rail" width="200px" class="game-image">
+        <div class="section">
+                <h3>1.) Input Data Game</h3>
+                <div class="input-row">
+                    <input type="number" placeholder="Input User ID" class="input-box">
+                    <select class="input-box">
+                        <option>Select Server</option>
+                        <option>Asia</option>
+                        <option>Europe</option>
+                        <option>America</option>
+                        <option>Tw,Hk,Mo</option>
+                    </select>     
+        <div class="sidebar">        
+        <img src="assets/images/hsr logo.jpg" alt="Honkai Star Rail" width="200px" class="game-image">
         <div class="instructions">
             <h3>How to Top Up Honkai Star Rail Oneiric Shards:</h3>
             <ol>
@@ -33,21 +45,8 @@
                 <li>Oneiric shards are automatically transferred to your game account</li>
             </ol>
         </div>
-
-        <div class="section">
-            <div class="sidebar">
-                <h3>1.) Input Data Game</h3>
-                <div class="input-row">
-                    <input type="number" name="user_id" required placeholder="Input User ID" class="input-box">
-                    <select class="input-box">
-                        <option>Select Server</option>
-                        <option>Asia</option>
-                        <option>Europe</option>
-                        <option>America</option>
-                        <option>Tw,Hk,Mo</option>
-                    </select>
-                </div>        
-            </div>
+</div>
+    </div>    
             <p class="instruction">
                 Please enter your User ID & Server and make sure it is correct. Example: 123456789 | server-asia.
             </p>
@@ -65,14 +64,14 @@
                 ["amount" => "2240", "price" => "₹ 2500"],
                 ["amount" => "3880", "price" => "₹ 3800"],
                 ["amount" => "8080", "price" => "₹ 7500"],
-                ["amount" => "express supply pass", "price" => "₹ 400"],
+                ["amount" => "Express Supply pass", "price" => "₹ 400"],
             ];
 
             foreach ($items as $item) {
                 echo "<button class='box grid-item'>
                         <a href='#' class='Item__link'>
                             <div class='product-container' style='display: block;'>
-                                <img src='photo scroll/shards.png' alt='Oneiric Shard' class='Image'>
+                                <img src='assets/images/shards.png' alt='Oneiric Shard' class='Image'>
                                 <span class='Item__title'>{$item['amount']}</span>
                             </div>
                             <span class='Item__price'>{$item['price']}</span>
