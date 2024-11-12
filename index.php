@@ -57,10 +57,10 @@
         <div class="grid-container-home container">
             <?php
             $games = [
-                ["link" => "mobilelegends.php", "img" => "photo scroll/mobile legends.png", "name" => "Moba Legends 5V5"],
+                ["link" => "mobilelegends.php", "img" => "assets/images/mobile legends.png", "name" => "Moba Legends 5V5"],
                 ["link" => "genshin.php", "img" => "assets\images\Genshin_Impact.png", "name" => "Genshin Impact"],
-                ["link" => "honkai star rail.php", "img" => "photo scroll/honkai star rail.avif", "name" => "Honkai Star Rail"],
-                ["link" => "#", "img" => "photo scroll/clash of clans.jpg", "name" => "Clash of Clans", "tag" => "Coming soon !"]
+                ["link" => "honkai star rail.php", "img" => "assets/images/honkai star rail.avif", "name" => "Honkai Star Rail"],
+                ["link" => "#", "img" => "assets/images/clash of clans.jpg", "name" => "Clash of Clans", "tag" => "Coming soon !"]
             ];
 
             foreach ($games as $game) {
